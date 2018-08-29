@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background: url("assets/mohamed_salah_wallpaper_by_demonp1desings-dbx0shm.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: white;
+    font-family: 'Lobster Two', cursive;
+    text-shadow: 2px 2px 4px #000000;
+    overflow: hidden;
+}
+h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+p {
+   font-size: 30px;
+}
+
+
+    
