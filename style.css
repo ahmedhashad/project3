@@ -3,11 +3,11 @@ html, body {
 }
 
 body {
-    background: url("assets/mohamed_salah_wallpaper_by_demonp1desings-dbx0shm.png");
+    background: url("assets/thumb-1920-528125.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    text-align: center;
+    /* text-align: center; */
     color: white;
     font-family: 'Lobster Two', cursive;
     text-shadow: 2px 2px 4px #000000;
@@ -19,7 +19,29 @@ h1 {
 
 p {
    font-size: 30px;
+   
+  
 }
 
+ 
+
+    .bullet:hover{padding: 50px !important;}
+.dot {
+    height: 46px;
+    width: 366px;
+    background-color: rgba(97, 17, 17, 0.822);
+    border-top-left-radius: 180px;
+    border-bottom-right-radius: 178px;
+    display: inline-block;
+    position:absolute;
+  
+}
 
     
+    .text{position:absolute;
+        color: rgb(2, 7, 7);
+        margin-top: 0px;
+        margin-bottom: 0px;
+        left: 117px;
+    }
+  
