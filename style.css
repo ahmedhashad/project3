@@ -13,35 +13,95 @@ body {
     text-shadow: 2px 2px 4px #000000;
     overflow: hidden;
 }
-h1 {
-    font-family: 'Dancing Script', cursive;
-}
 
-p {
-   font-size: 30px;
    
-  
+ @font-face {
+    font-family: AlexBrush-Regular;
+    src: url(font/AlexBrush-Regular.ttf);
 }
 
- 
 
-    .bullet:hover{padding: 50px !important;}
-.dot {
+
+.img{ display: none;
+      width: 25%;
+      height: 41%;
+      top: 0px;
+      margin-top: 20px;
+      margin-left: 500px;
+      position: absolute;
+      border-top-left-radius: 180px;
+    border-bottom-right-radius: 178px; }
+
+
+
+
+
+
+   /* ...................menu style................................................*/
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+.menu li {
+
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: rgb(43,41,41);
+    color: #ffffff;
     height: 46px;
     width: 366px;
-    background-color: rgba(97, 17, 17, 0.822);
+    font-family: AlexBrush-Regular;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
     border-top-left-radius: 180px;
     border-bottom-right-radius: 178px;
-    display: inline-block;
-    position:absolute;
-  
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: #0099cc;
 }
 
+
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+
     
-    .text{position:absolute;
-        color: rgb(2, 7, 7);
-        margin-top: 0px;
-        margin-bottom: 0px;
-        left: 117px;
-    }
-  
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:400px) {
+  .menu li, .menu ul, .img {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
